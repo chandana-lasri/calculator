@@ -1,0 +1,69 @@
+<! DOCTYPE html>  
+<html>  
+    <head>
+
+    <meta charset="utf-8">  
+
+    <title>  
+         Calculator 
+    </title>  
+    
+    <link rel ="stylesheet " href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+   
+    </head>  
+
+<body>
+    
+    <div class = "title"  >  
+         ... Calculator ... 
+    </div>  
+    
+    <form name="Calc" class = "calci" >  
+<table border="5" align="center"  cellspacing="10" cellpadding="18" bgcolor=" #709E93" >  
+<tr>  
+<td class="td">  
+<input type="text"  name="Input" id="scrn">  
+<br>  
+</td>  
+</tr>  
+<tr>  
+<td> 
+<input type="button"  style="font-size:20px" value= "clear" OnClick="Calc.Input.value = ''">
+<input type="button"  style="font-size:25px" value= "^2"   OnClick="Calc.Input.value= Math.pow(Calc.Input.value,2)">
+<input type="button"  style="font-size:25px" value= "log" OnClick="Calc.Input.value =Math.log(Calc.Input.value)">
+<input type="button"  style="font-size:35px" value= "="   OnClick="Calc.Input.value = eval(Calc.Input.value)">
+
+ <br>   
+<input type="button"  style="font-size:35px" value=" 1 " OnClick="Calc.Input.value += '1'">  
+<input type="button"  style="font-size:35px" value=" 2 " OnCLick="Calc.Input.value += '2'">  
+<input type="button"  style="font-size:35px" value=" 3 " OnClick="Calc.Input.value += '3'">  
+<input type="button"  style="font-size:35px" value=" + " OnClick="Calc.Input.value += ' + '">  
+<br>  
+<input type="button"  style="font-size:35px" value=" 4 " OnClick="Calc.Input.value += '4'">  
+<input type="button"  style="font-size:35px" value=" 5 " OnCLick="Calc.Input.value += '5'">  
+<input type="button"  style="font-size:35px" value=" 6 " OnClick="Calc.Input.value += '6'">  
+<input type="button"  style="font-size:35px" value=" - " OnClick="Calc.Input.value += ' - '">  
+<br>  
+<input type="button"  style="font-size:35px" value=" 7 " OnClick="Calc.Input.value += '7'">  
+<input type="button"  style="font-size:35px" value=" 8 " OnCLick="Calc.Input.value += '8'">  
+<input type="button"  style="font-size:35px" value=" 9 " OnClick="Calc.Input.value += '9'">  
+<input type="button"  style="font-size:35px" value=" * " OnClick="Calc.Input.value += ' * '">
+<br>  
+<input type="button"  style="font-size:35px" value=" . " OnClick="Calc.Input.value += '.'">
+<input type="button"  style="font-size:35px" value=" 0 " OnClick="Calc.Input.value += '0'">  
+<input type="button"  style="font-size:35px" value=" % " OnClick="Calc.Input.value += '%'">
+<input type="button"  style="font-size:35px" value=" / " OnClick="Calc.Input.value += ' / '">  
+<br> 
+<input type="button"  style="font-size:35px" value= "∛"  Onclick="Calc.Input.value =Math.cbrt(Calc.Input.value)">
+<input type="button"  style="font-size:35px" value= "√"  OnClick="Calc.Input.value =Math.sqrt(Calc.Input.value)">  
+<input type="button"  style="font-size:35px" value=" ( " OnClick="Calc.Input.value += '('">
+<input type="button"  style="font-size:35px" value=" ) " OnClick="Calc.Input.value += ')'">
+<br>
+</td>   
+</tr>  
+</table>  
+</form>  
+<p class ="name" style="font-size: 35px"> - chandana lasri </p>
+</body>  
+</html>     
